@@ -1,0 +1,12 @@
+[project]
+name = "resumate-landing-page"
+version = "0.1.0"
+description = "An AI-powered job search companion built with FastHTML"
+readme = "README.md"
+requires-python = ">=3.11"  # Broad compatibility; adjust as needed
+dependencies = [
+    "python-fasthtml>=0.5.0",
+]
+
+[tool.uv]
+# No `python` field here; use .python-version file instead if needed
