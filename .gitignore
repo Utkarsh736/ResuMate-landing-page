@@ -1,0 +1,27 @@
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*$py.class
+
+# FastHTML-specific ignores
+.sesskey
+
+# Common development ignores
+*.log
+*.pid
+*.seed
+
+# Virtual environment ignores
+venv/
+env/
+.env
+
+# Editor/IDE ignores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific ignores
+.DS_Store
+Thumbs.db
